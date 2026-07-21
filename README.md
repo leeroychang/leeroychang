@@ -1,16 +1,13 @@
-## Hi there 👋
+## Hi 👋 I'm Yung Chiang
+***
+### Gameplay Programmer & Game Designer
+### Student of Information Engineering and Media in Nanyang Technological University
 
-<!--
-**leeroychang/leeroychang** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I have been developing video games since 2024, with a focus on building Gameplay Mechanics.<br>
+Currently, I'm developing DecayBound, a Roguelike Deckbuilder that my team plans to submit for Independent Games Festival.
 
-Here are some ideas to get you started:
+- :earth_asia: I'm based in Singapore
+- :computer: See my portfolio at [LinkedIn](https://www.linkedin.com/in/chang-yung-chiang/)
+- :video_game: I'm currently working on DecayBound
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Interesting in trying out my games? [Click Here](https://everoy.itch.io/)
