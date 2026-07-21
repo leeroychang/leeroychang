@@ -1,4 +1,4 @@
-## Hi 👋 I'm Yung Chiang
+### Hi 👋 I'm Yung Chiang
 ***
 ### Gameplay Programmer & Game Designer
 ### Student of Information Engineering and Media in Nanyang Technological University
