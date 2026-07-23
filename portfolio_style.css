@@ -1,0 +1,156 @@
+@font-face {
+    font-family: Oswald;
+    src: url(fonts/Oswald/static/Oswald-Regular.ttf);
+}
+
+@font-face {
+    font-family: Oswald;
+    src: url(fonts/Oswald/static/Oswald-Bold.ttf);
+    font-weight: bold;
+}
+
+
+:root {
+    --header-bg: #1f0b44aa;
+    --bg-color: #121212;
+    --text-color: #ffffff;
+    --hover-color: #2a105cee;
+}
+
+.light-mode {
+    --header-bg: #eeeeeeaa;
+    --bg-color: #ffffff;
+    --text-color: #000000;
+    --hover-color: #e1e1e1ee;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header-container {
+    position: fixed;
+    background-color: var(--header-bg);
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    padding-left: 64px;
+}
+
+
+
+.header-title {
+    text-align: left;
+    font-family: Oswald, sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.header-tab-container {
+    padding-left: 32px;
+    height: 100%;
+}
+
+.header-tab {
+    padding: 0 16px;
+    height: 100%;
+    font-size: 1.5em;
+    font-family: Oswald, sans-serif;
+    border: 0;
+    background-color: transparent;
+    color: var(--text-color);
+}
+
+.header-tab:hover {
+    background-color: var(--hover-color);
+}
+
+@media (max-width: 768px) {
+  .header-tab-container {
+    display: none;
+  }
+}
+
+.divider {
+    margin: 10vh 0;
+}
+
+.section {
+    margin: 8px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-title {
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.section-content {
+    max-width: 50vw;
+    text-align: justify;
+}
+
+.section-grid {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.preview {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin: 32px;
+    width: 320px;
+}
+
+.preview-img-container {
+    overflow: hidden;
+    height: 250px;
+    width: 315px;
+    border-radius: 16px;
+    border-color: #ffffff;
+    border: 1px solid;
+    margin-bottom: 8px;
+}
+
+.preview-img {
+    height: 250px;
+    width: 315px;
+    background-size: cover;
+    transition: all 0.3s ease-in-out;
+}
+
+.preview-img:hover {
+    transform: scale(1.1);
+}
+
+.preview-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0;
+}
+
+.preview-tags {
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+.tag {
+    border-radius: 2px;
+    padding: 4px;
+    color: #ffffff;
+}
