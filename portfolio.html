@@ -2,6 +2,7 @@
 <html lang="en-us">
     <head>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="portfolio_style.css">
     </head>
     <body>
@@ -15,6 +16,11 @@
                 <button class="header-tab" id="browser">Browser Games</button>
                 <button class="header-tab" id="windows">Windows Games</button>
                 <button class="header-tab" id="contact">Contact</button>
+            </div>
+            <div class="mode-button-container">
+                <button class="mode-button" id="mode-toggle">
+                    <i class="fa fa-moon-o" id="mode-icon"></i>
+                </button>
             </div>
             
         </div>
@@ -35,17 +41,26 @@
         <span class="divider"></span>
         <div class="section" id="featured-section">
             <span class="section-title">Featured</span>
-            <div class="preview">
-
-                <span class="preview-title">DecayBound</span>
-                <div class="preview-tags">
-
+            <div class="preview"> <!-- Featured Game -->
+                    <a href="https://github.com/leeroychang/DecayBound">
+                        <div class="preview-img-container">
+                            <div class="preview-img" style="background-image: url('https://github.com/leeroychang/DecayBound/blob/main/DBIcon.png?raw=true')"></div>
+                        </div>
+                    </a>
+                    <span class="preview-title">DecayBound</span>
+                    <div class="preview-tags">
+                        <span class="tag" style="background-color: darkslateblue;">Roguelike</span>
+                        <span class="tag" style="background-color: darkgreen;">Deckbuilder</span>
+                        <span class="tag" style="background-color: cornflowerblue;">University</span>
+                    </div>
+                    <div class="preview-desc">
+                        A classic roguelike deckbuilder, embellised with engaging combat mechanics such as body part targeting and element combinations.
+                        <br><br>
+                        This was developed by 3 members for our "Undergraduate Research Experience on Campus" project. I was responsible for leading the team and developing the gameplay. Namely, developing a turn-based card combat with complex enemy decision-making and modular card systems.
+                        <br><br><br>
+                        Timeframe: 1 Year
+                    </div>
                 </div>
-                <div class="preview-desc">
-                    
-                </div>
-            </div>
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         </div>
 
         <!-- Browser Games -->
@@ -66,9 +81,11 @@
                         <span class="tag" style="background-color: goldenrod;">Game Jam</span>
                     </div>
                     <div class="preview-desc">
-                        A unique gameplay where players possess the bodies of slain foes to fight an endless horde of enemies.
+                        A unique gameplay where players possess the bodies of slain foes to fight an endless horde of enemies. With their soul decaying while outside a body, players have to possess and defeat enemies to survive as long as they can. 
                         <br><br>
                         This is a 2-member project, where I used Unity, C#, and Aseprite to design and program the gameplay, user interface, and animations. Utilising state machines, player-possessed bodies follow through actions even when unpossessed, and enemies react to player movement.
+                        <br><br><br>
+                        Timeframe: 10 Days
                     </div>
                 </div>
                 <div class="preview"> <!-- Game 2 -->
@@ -87,9 +104,10 @@
                         A methodical experience where players select from a cast of characters, each with their own expertise, and scale a tower full of monsters and treasure. With randomly generated dungeons, each gameplay experience will be unique.
                         <br><br>
                         This is a individual submission for the GameCraft 2024 Game Jam, where I programmed procedurally generated dungeons. A unique combat mechanic was designed, where characters' actions are determined with input randomness from dice rolls.
+                        <br><br><br>
+                        Timeframe: 1 Week
                     </div>
                 </div>
-            </div>
             </div>
         </div>
 
@@ -103,7 +121,6 @@
                         <div class="preview-img-container">
                             <div class="preview-img" style="background-image: url('https://github.com/leeroychang/LilQuacksBG/blob/main/LQIcon.png?raw=true')"></div>
                         </div>
-                        
                     </a>
                     <span class="preview-title">Lil Quacks Battleground</span>
                     <div class="preview-tags">
@@ -112,7 +129,11 @@
                         <span class="tag" style="background-color: cornflowerblue;">University</span>
                     </div>
                     <div class="preview-desc">
-
+                        A game all about strategic time management and unit manipulation. Players take control of defending against waves of enemies, collecting resources to produce controllable units.
+                        <br><br>
+                        This is a two-person project made for an undergraduate course. In the design aspect, I was responsible for game design, level design, user interface, and animations. I was also responsible for the gameplay programming, namely handling of units through Unity's Entity Component System, as well as user interaction for selecting and controlling units.
+                        <br><br><br>
+                        Timeframe: 4 Weeks
                     </div>
                 </div>
                 <div class="preview"> <!-- Game 2 -->
@@ -128,7 +149,11 @@
                         <span class="tag" style="background-color: goldenrod;">Game Jam</span>
                     </div>
                     <div class="preview-desc">
-
+                        A twist on the Dungeon Crawler genre, bringing in action-style combat with time-based mechanics. A hollow soundscape, mixed with the cramped corridors and limited movement creates an unsettling ambience.
+                        <br><br>
+                        This was an individual project that I submitted for my first participation in a game jam. On this project, I familiarised myself with the tools provided by Unity and C# to programme player and enemy movement. The A* pathfinding algorithm provided an optimal solution for entity movement.
+                        <br><br><br><br><br>
+                        Timeframe: 9 Days
                     </div>
                 </div>
             </div>
@@ -136,13 +161,20 @@
 
 
         <span class="divider"></span>
-        <div class="contacts" id="contact-section">
-            <span class="section-title">Contact</span>
+        <div class="section" id="contact-section">
+            <span class="section-title">Contact Me</span>
             <div class="section-content">
-                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <!-- Add icon library -->
+                
+
+                <!-- Add font awesome icons -->
+                <a href="https://www.linkedin.com/in/chang-yung-chiang/" class="fa fa-linkedin"></a>
+                <a href="https://www.instagram.com/leeroychang/" class="fa fa-instagram"></a>
+                <a href="mailto:ychang028@e.ntu.edu.sg" class="fa fa-envelope"></a>
             </div>
+            <br><br>
         </div>
-        <button id="mode-toggle">Toggle Light Mode</button>
+        <span class="divider"></span>
     </body>
 
     <script src="portfolio_script.js"></script>
