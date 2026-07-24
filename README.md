@@ -7,7 +7,7 @@ I have been developing video games since 2024, with a focus on building Gameplay
 Currently, I'm developing DecayBound, a Roguelike Deckbuilder that my team plans to submit for Independent Games Festival.
 
 - :earth_asia: I'm based in Singapore
-- :computer: See my portfolio at [LinkedIn](https://www.linkedin.com/in/chang-yung-chiang/)
+- :computer: See my [Portfolio](https://leeroychang.github.io/leeroychang/portfolio)
 - :video_game: I'm currently working on DecayBound
 
 ### My Skills
